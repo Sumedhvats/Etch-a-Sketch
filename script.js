@@ -59,7 +59,7 @@ document.querySelector(".Colors").addEventListener("click", (event) => {
     } else if (event.target.classList.contains("green")) {
         color = "green";
     } else if (event.target.classList.contains("pink")) {
-        color = "pink";
+        color = "hotpink";
     } else if (event.target.classList.contains("custom")) {
         color = "custom";  
         const customColorInput = document.createElement("input");
