@@ -1,0 +1,75 @@
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+.container div {
+    background-color: black;
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+}
+
+.container div:hover {
+    background-color: grey;
+}
+
+.buttons {
+    padding: 10px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Colors {
+    padding: 10px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Colors button {
+    padding: 8px 12px;
+    border-color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.Colors .custom {
+    margin-left: 50px;
+    background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+
+.Colors .custom:hover {
+    background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.pink {
+    background-color: hotpink;
+}
