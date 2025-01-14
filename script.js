@@ -5,7 +5,7 @@ let randomColorInterval;
 
 function createGrid(size) {
     container.innerHTML = '';
-    const max = 500 / size;
+    const max = 820 / size;
 
     for (let i = 0; i < size * size; i++) {
         const div = document.createElement("div");

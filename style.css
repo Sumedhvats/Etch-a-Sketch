@@ -1,10 +1,12 @@
+
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
+    width: 820px;
+    height:820px;
     margin: auto;
     border: 1px solid #ccc;
+    
 }
 /* sdfjhs;dfjh */
 
@@ -21,17 +23,20 @@
 }
 
 .buttons  {
-    padding: 10px;
-    gap: 8px;
+    padding: 20px;
+    gap: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Monospace', sans-serif;
     font-weight: 400;
+  
    
 }
 .buttons button{
-    border-radius: 4px;
+    font-size: 15px;
+    border-radius: 12px;
+    background-color: lightblue;
     cursor: pointer;
     border: none;
     transition: background 0.3s ease;
@@ -69,6 +74,7 @@
 .Colors .cust div {
     text-align: center; /* Centers the text inside the div */
     font-family: 'Monospace', sans-serif;
+    font-size: 18px;
 }
 
 
