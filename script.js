@@ -76,7 +76,7 @@ document.querySelector(".Colors").addEventListener("click", (event) => {
     } else if (event.target.classList.contains("random")) {
         color = "random";
         clearInterval(randomColorInterval);
-
+console.log("hello")
         // Remove any interval-driven coloring, as we now apply random colors only on hover
         const grids = container.querySelectorAll("div");
         grids.forEach((div) => {
