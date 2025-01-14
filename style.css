@@ -58,16 +58,31 @@
     border: none;
     transition: background 0.3s ease;
 }
+.Colors .cust {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Adds spacing between the text and button */
+    padding-left: 50px; /* Remove unnecessary padding */
+    padding-right: 30px;
+}
+.Colors .cust div {
+    text-align: center; /* Centers the text inside the div */
+    font-family: 'Monospace', sans-serif;
+}
+
 
 .Colors .custom {
-    margin-left: 50px;
+   
     background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
 }
 
 .Colors .custom:hover {
     background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
 }
-
+.Colors .random{
+    background: black;
+}
 .red {
     background-color: red;
 }
